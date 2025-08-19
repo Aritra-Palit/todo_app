@@ -35,7 +35,7 @@ repos:
     hooks:
       - id: prettier
         types_or: [javascript, vue, scss]
-        # Ignore any files that might contain jinja / bundles
+        
         exclude: |
             (?x)^(
                 todo_app/public/dist/.*|
