@@ -52,7 +52,7 @@ repos:
       - id: eslint
         types_or: [javascript]
         args: ['--quiet']
-        # Ignore any files that might contain jinja / bundles
+        
         exclude: |
             (?x)^(
                 todo_app/public/dist/.*|
