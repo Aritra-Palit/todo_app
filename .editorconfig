@@ -4,5 +4,5 @@ end_of_line = lf
 insert_final_newline = true
 trim_trailing_whitespace = true
 charset = utf-8
-[{*.py,*.js,*.css,*.html}]
+[{*.js,*.css,*.html}]
 indent_style = tab
